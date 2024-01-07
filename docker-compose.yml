@@ -5,7 +5,7 @@ services:
     expose:
     - "25"
     env_file:
-      - .env
+      - Stack.env
     restart: always
     volumes:
      - "/etc/localtime:/etc/localtime:ro"
