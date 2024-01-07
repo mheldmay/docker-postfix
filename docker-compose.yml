@@ -7,5 +7,7 @@ services:
     env_file:
       - stack.env
     restart: always
+    ports:
+      - 9025:25
     volumes:
      - "/etc/localtime:/etc/localtime:ro"
